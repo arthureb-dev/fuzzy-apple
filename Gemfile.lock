@@ -56,6 +56,7 @@ GEM
       minitest (~> 5.1)
       tzinfo (~> 1.1)
       zeitwerk (~> 2.2, >= 2.2.2)
+    blueprinter (1.0.2)
     bootsnap (1.13.0)
       msgpack (~> 1.2)
     builder (3.2.4)
@@ -83,6 +84,8 @@ GEM
     minitest (5.16.2)
     msgpack (1.5.4)
     nio4r (2.5.8)
+    nokogiri (1.13.8-arm64-darwin)
+      racc (~> 1.4)
     nokogiri (1.13.8-x86_64-darwin)
       racc (~> 1.4)
     puma (4.3.12)
@@ -160,9 +163,11 @@ GEM
     zeitwerk (2.6.0)
 
 PLATFORMS
+  arm64-darwin-24
   x86_64-darwin-21
 
 DEPENDENCIES
+  blueprinter (~> 1.0)
   bootsnap (>= 1.4.2)
   byebug
   listen (~> 3.2)

@@ -1,6 +1,6 @@
 require 'rails_helper'
 
-describe 'News API', type: :request do
+describe 'ArticlesController', type: :request do
   describe 'POST /articles' do
     let(:article_params) do
       {
